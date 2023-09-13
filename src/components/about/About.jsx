@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// Import Image Here
+import Pic from '../../assets/IMG_5861.PNG'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -14,7 +14,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src='' alt='About Image' />
+            <img src={Pic} alt='About Image' />
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>___ years working experience</small>
+              <small>600+ hours of hands-on training</small>
             </article>
 
             <article className='about__card'>
@@ -35,12 +35,12 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>50+ dynamic web applications created</small>
             </article>
           </div>
 
           <p> 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quaerat aut. Exercitationem numquam eveniet inventore commodi tenetur enim, neque odit libero veniam adipisci laudantium voluptatibus consectetur amet ducimus, maiores quia?
+          Adaptable Software Engineer with experience in Object Oriented Programming, SDLC, agile project management, and full stack application development. Understanding of non-relational databases, and state management. Possess strong problem-solving abilities, a passion for continued learning, excellent attention to detail, and elite interpersonal communication skills.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
