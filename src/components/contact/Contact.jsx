@@ -3,8 +3,8 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
-import Emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    Emailjs.sendForm('service_057pilt', 'template_k7r354j', form.current, 'oTKgoAs6QHMZuNbPf')
+    emailjs.sendForm('service_057pilt', 'template_k7r354j', form.current, 'oTKgoAs6QHMZuNbPf')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
