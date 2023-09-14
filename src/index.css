@@ -42,7 +42,7 @@ body {
 }
 
 /* =============== GENERAL STYLES ============== */
-container {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }

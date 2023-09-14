@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Pic from '../../assets/IMG_5861.PNG'
+import Pic from '../../assets/thumbnail.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -26,11 +26,11 @@ const About = () => {
               <small>600+ hours of hands-on training</small>
             </article>
 
-            <article className='about__card'>
+            {/* <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>300+ Worldwide</small>
-            </article>
+            </article> */}
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p> 
-          Adaptable Software Engineer with experience in Object Oriented Programming, SDLC, agile project management, and full stack application development. Understanding of non-relational databases, and state management. Possess strong problem-solving abilities, a passion for continued learning, excellent attention to detail, and elite interpersonal communication skills.
+          Hello! I'm Chad, a software engineer based out of Detroit, MI. I have experience in Object Oriented Programming, SDLC, agile project management, and full stack application development, with an understanding of non-relational databases, and state management. I consider myself highly adaptable and possess strong problem-solving abilities, a passion for continued learning, excellent attention to detail, and elite interpersonal communication skills.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

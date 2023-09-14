@@ -15,6 +15,7 @@
 
 .about__me-image {
     border-radius: 2rem;
+    /* width: 86%; */
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
@@ -98,6 +99,6 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0
+        margin: 1.5rem 0;
     }
 }
